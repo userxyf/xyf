@@ -1,0 +1,59 @@
+/* 底部固定区域居中 */
+.layui-footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* 图标样式自定义 */
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+/* 头部个人中心箭头位置设置 */
+.layui-nav .layui-nav-more {
+    right: -5px;
+}
+
+/* ifame */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* 头像 */
+.layui-side-scroll .userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 设置无法选中 */
+    user-select: none;
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* 文字头像 */
+.text-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+
