@@ -20,7 +20,7 @@ $(function () {
     });
 });
 
-// 获取用户基本信息(需要权限)
+//* 获取用户基本信息(需要权限)
 function getUserInfo() {
     $.ajax({
         url: '/my/userinfo',

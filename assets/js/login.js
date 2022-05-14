@@ -17,7 +17,8 @@ $(function () {
     let layer = layui.layer
 
     //* 通过 form.verify() 函数自定义检验规则
-    // pwd或者repwd添加给了谁value的值就表示谁表单的值
+    //* 将其添加到 input 中的 lay-verify 属性中即可验证
+    //* pwd或者repwd添加给了谁value的值就表示谁表单的值
     form.verify({
         pwd: [
             /^[\S]{6,12}$/
