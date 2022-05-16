@@ -1,3 +1,5 @@
+//! 带my开头的url地址都需要 headers,因为需要权限认证，参考 baseAPI.js
+
 $(function () {
     let layer = layui.layer;
 
